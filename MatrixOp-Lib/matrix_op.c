@@ -2,7 +2,7 @@
 
 /* ===== Basic ===== */
 
-void mat_add(int A[3][3], int B[3][3], int R[3][3]) {
+void mat_add(int A[3][3], int B[3][3], int R[3][3]) { //加法
     int i, j;
     for (i = 0; i < 3; i++)
         for (j = 0; j < 3; j++)
