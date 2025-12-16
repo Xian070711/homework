@@ -34,7 +34,7 @@ int main() {
     mat_add(A, B, R);
     print_mat("A + B:", R);
 
-    mat_sub(A, B, R);
+    mat_sub(A, B, R); 
     print_mat("A - B:", R);
 
     mat_elem_mul(A, B, R);
